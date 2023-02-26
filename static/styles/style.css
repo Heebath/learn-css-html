@@ -16,3 +16,11 @@ span {
     background-color: brown;
     margin: 30px;
 }
+*{
+    /*margin: 0;*/
+/*    обнуление всех отсупов*/
+}
+.padding{
+    padding: 30px;
+/*    отступ до контента внутрь    */
+}
