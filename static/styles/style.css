@@ -3,7 +3,10 @@ span {
     background-color: black;
     color: antiquewhite;
 }
-/* Класс для определенного слова*/
+
 .bold {
     font-weight: bold;
+}
+.list1 {
+    list-style: armenian;
 }
