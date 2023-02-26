@@ -10,3 +10,9 @@ span {
 .list1 {
     list-style: armenian;
 }
+/*Подсветка тега*/
+.exp {
+    font-size: 20px;
+    background-color: brown;
+    margin: 30px;
+}
