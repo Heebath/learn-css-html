@@ -3,6 +3,7 @@ span {
     background-color: black;
     color: antiquewhite;
 }
-.zara {
+/* Класс для определенного слова*/
+.bold {
     font-weight: bold;
 }
