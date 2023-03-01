@@ -1,4 +1,4 @@
-span {
+.span {
     font-style: italic;
     background-color: black;
     color: antiquewhite;
@@ -22,5 +22,26 @@ span {
 }
 .padding{
     padding: 30px;
+    background-color: greenyellow;
 /*    отступ до контента внутрь    */
+}
+.inline{
+    background-color: aquamarine;
+    font-size: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+h2{
+    background-color: darkorchid;
+    font-size: 30px;
+}
+.main{
+    text-align: center;
+}
+.colored{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
