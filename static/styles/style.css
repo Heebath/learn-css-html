@@ -8,7 +8,10 @@
     font-weight: bold;
 }
 .list1 {
-    list-style: armenian;
+    border: solid;
+    border-width: 0.5px;
+    padding: 20px ;
+    display: inline-block;
 }
 /*Подсветка тега*/
 .exp {
@@ -44,4 +47,24 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
 }
+.colored>img{
+    max-width: 450px;
+    max-height: 450px;
+}
+.list1>p{
+    text-align: center;
+    font-weight: bold;
+}
+.img-cont{
+    float: right;
+    border-style: solid;
+    padding: 5px;
+    margin-left: 15px;
+}
+.img-cont>div{
+    display: flex;
+    flex-direction: column;
+}
+.nav-cont
