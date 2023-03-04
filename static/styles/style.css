@@ -75,16 +75,29 @@ h2{
     display: flex;
     justify-content: space-between;
     width: 800px;
-}
+   }
 .nav-cont>nav>ul{
     display: flex;
     list-style: none;
     margin: unset;
     padding: unset;
 }
+.nav-cont>nav>ul>li{
+    background-image: url("../images/hero-img_copy.jpg");
+    font-style: normal;
+    text-decoration: none;
+    color: floralwhite;
+}
 .nav-cont>nav>ul>li>a{
     display: block;
     padding: 10px;
     border-style: solid;
     border-width: 0.5px;
+    color: floralwhite;
+    text-decoration: none;
+
 }
+.nav-cont>nav>ul>li>a:hover{
+    border-style: none;
+}
+
